@@ -12,6 +12,7 @@ var GetParams = {
   count: 200,
   trim_user: 1,
   include_rts: 0,
+var bugMsg = "Spotted a bug? Report it at markovdrumpf@gmail.com! #FakeNews";
 }
 //global variables//
 
@@ -76,6 +77,12 @@ function setCount(min, max) {
 function markovTweet() {
   T.get('statuses/user_timeline', GetParams, receivedData);
 }
+
+function bugTweet() {
+  T.post('statuses/update', { status: bugMsg }, function(err, data, response) {
+    console.log("Tweeted bug message.");
+  });
+}
 //main functions//
 
 //helper functions//
@@ -105,3 +112,5 @@ stream.on('tweet', function(tweet) {
       markovTweet();
   }
 });
+
+setInterval(bugTweet, 604800000); //tweet a reminder to report bugs once a week
