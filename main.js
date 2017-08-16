@@ -100,9 +100,8 @@ function checkTweet(tweet, input) {
 }
 //helper functions//
 
-/* stream.on('tweet', function(tweet) {
+stream.on('tweet', function(tweet) {
   if (tweet["user"]["screen_name"] == "realDonaldTrump") {
       markovTweet();
   }
-}); */
-setInterval(markovTweet, 60*1000);
+});
