@@ -12,8 +12,8 @@ var GetParams = {
   count: 200,
   trim_user: 1,
   include_rts: 0,
-var bugMsg = "Spotted a bug? Report it at markovdrumpf@gmail.com! #FakeNews";
 }
+var bugMsg = "Spotted a bug? Report it at markovdrumpf@gmail.com! #FakeNews";
 //global variables//
 
  //main functions//
