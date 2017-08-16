@@ -1,0 +1,22 @@
+{
+  "name": "amsad",
+  "version": "1.0.0",
+  "description": "A markov-chain based Drumpf twitter emulator.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "trump",
+    "drumpf",
+    "bot",
+    "twitter",
+    "markov"
+  ],
+  "author": "cpbarker",
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.9"
+  }
+}
