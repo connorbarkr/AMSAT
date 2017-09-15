@@ -13,7 +13,7 @@ text on your phone!
 Go ahead and and contact me at markovdrumpf@gmail.com with any suggestions for bugfixes or general improvements!
 
 ## Dependencies and Thanks
-Using the npm package [Twit](https://www.npmjs.com/package/twit)
+Using the npm package [Twit](https://www.npmjs.com/package/twit)\n
 No Markov libraries used - this project aimed to challenge me to build my own, from scratch.
 
 Thanks to [Heroku](https://www.heroku.com/) for the free hosting!
